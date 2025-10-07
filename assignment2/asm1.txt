@@ -1,0 +1,204 @@
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ man cat
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ uname
+Linux
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ pwd
+/home/sunbeam/Desktop/os-assignment
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ hostname
+KadamRutvik92823DESD
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ date
+Saturday 04 October 2025 04:52:09 PM IST
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ cal
+Command 'cal' not found, but can be installed with:
+sudo apt install ncal
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ sudo apt install ncal
+[sudo] password for sunbeam: 
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following NEW packages will be installed:
+  ncal
+0 upgraded, 1 newly installed, 0 to remove and 5 not upgraded.
+Need to get 20.2 kB of archives.
+After this operation, 69.6 kB of additional disk space will be used.
+Get:1 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 ncal amd64 12.1.7+nmu3ubuntu2 [20.2 kB]
+Fetched 20.2 kB in 1s (18.1 kB/s)                        
+Selecting previously unselected package ncal.
+(Reading database ... 246625 files and directories currently installed.)
+Preparing to unpack .../ncal_12.1.7+nmu3ubuntu2_amd64.deb ...
+Unpacking ncal (12.1.7+nmu3ubuntu2) ...
+Setting up ncal (12.1.7+nmu3ubuntu2) ...
+Processing triggers for man-db (2.10.2-1) ...
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ cal
+    October 2025      
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30 31     
+                      
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ ls, dir
+Command 'ls,' not found, did you mean:
+  command 'lsd' from snap lsd (0.16.0)
+  command 'ls' from deb coreutils (8.32-4.1ubuntu1.2)
+  command 'lsw' from deb suckless-tools (46-1)
+  command 'lsc' from deb livescript (1.6.1+dfsg-2)
+  command 'lsm' from deb lsm (1.0.4-2)
+  command 'lsh' from deb lsh-client (2.1-13)
+See 'snap info <snapname>' for additional versions.
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ ls dir
+ls: cannot access 'dir': No such file or directory
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ man ls, dir
+No manual entry for ls,
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ ls
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ dir
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ cat
+20+2
+20+2
+hey 
+hey 
+^C
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ cat >> 
+bash: syntax error near unexpected token `newline'
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ cat >> rtrex.txt
+Welcome to the wonderfull world of embedded
+^C      
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ cp
+cp: missing file operand
+Try 'cp --help' for more information.
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ man cp
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ cp rtrex.txt rk.txt
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ cat rk.txt
+Welcome to the wonderfull world of embedded
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ mv rk
+mv: missing destination file operand after 'rk'
+Try 'mv --help' for more information.
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ mv rk.txt
+mv: missing destination file operand after 'rk.txt'
+Try 'mv --help' for more information.
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ man mv
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ mv rk.txt new
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ man mv
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ mv rtrex.txt rutvik
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ ls
+new  rutvik
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ ls new
+rk.txt
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ tac rutvik 
+Welcome to the wonderfull world of embedded
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ rev rutvik 
+deddebme fo dlrow llufrednow eht ot emocleW
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ cat rutvik
+Welcome to the wonderfull world of embedded
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ cat > rutvik 
+hello everyone 
+work hard
+^C
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ tac rutvik 
+work hard
+hello everyone 
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ cat >> rutvik 
+Welcome to the wonderfull world of embedded
+^C
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ tac rutvik 
+Welcome to the wonderfull world of embedded
+work hard
+hello everyone 
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ cat rutvik 
+hello everyone 
+work hard
+Welcome to the wonderfull world of embedded
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ rev rutvik 
+ enoyreve olleh
+drah krow
+deddebme fo dlrow llufrednow eht ot emocleW
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ wc rutvik 
+ 3 11 70 rutvik
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ cp rk os-assignment
+cp: cannot stat 'rk': No such file or directory
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ mv rk os-assignment
+mv: cannot stat 'rk': No such file or directory
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ cp /new/rk /os-assignment
+cp: cannot stat '/new/rk': No such file or directory
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ mv rutvik new
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ ls new
+rk.txt  rutvik
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ cd new
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ cd os-assignment
+bash: cd: os-assignment: No such file or directory
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ rm rk
+rm: cannot remove 'rk': No such file or directory
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ cd
+sunbeam@KadamRutvik92823DESD:~$ cd os-assignment
+bash: cd: os-assignment: No such file or directory
+sunbeam@KadamRutvik92823DESD:~$ cd /Desktop/os-assignment/
+bash: cd: /Desktop/os-assignment/: No such file or directory
+sunbeam@KadamRutvik92823DESD:~$ mkdir new
+sunbeam@KadamRutvik92823DESD:~$ rm 
+rm: missing operand
+Try 'rm --help' for more information.
+sunbeam@KadamRutvik92823DESD:~$ ls
+c-assignment  E2_92823       meshinstall.sh  Public      STM32CubeIDE
+Desktop       Git_data       Music           ranges.odt  Templates
+Documents     meshagent      new             snap        Videos
+Downloads     meshagent.msh  Pictures        STM32Cube
+sunbeam@KadamRutvik92823DESD:~$ cd Desktop
+sunbeam@KadamRutvik92823DESD:~/Desktop$ ls
+ ADC_Help    MCPI              Modend2         SPI-assel_LED
+ Classwork   mcpi-assignment  'module c'       to_do_list.txt
+ labm        MCPI_Help         os-assignment   tokens.txt
+sunbeam@KadamRutvik92823DESD:~/Desktop$ cd os-assignment
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ mkdir asm1
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ cp rk asm1
+cp: cannot stat 'rk': No such file or directory
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ cd new
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ cp rk asm1
+cp: cannot stat 'rk': No such file or directory
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ cp rk.txt asm1
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ rm asm1
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ cp new asm1
+cp: cannot stat 'new': No such file or directory
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ mv rutvik asm1
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ mv asm1 to rut
+mv: target 'rut' is not a directory
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ mv asm1 rut
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ cp rut asm1
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ rm asm1
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ rmdir asm1
+rmdir: failed to remove 'asm1': No such file or directory
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ cd
+sunbeam@KadamRutvik92823DESD:~$ cd Desktop
+sunbeam@KadamRutvik92823DESD:~/Desktop$ cd os-assignment
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ rmdir asm1
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ ls
+new
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ touch
+touch: missing file operand
+Try 'touch --help' for more information.
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ man touch
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ touch rk
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ rm rk
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment$ cd new
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ touch rut
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ man touch
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ touch -t Stamp rut 
+touch: invalid date format ‘Stamp’
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ man touch
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ touch -t STAMP rut
+touch: invalid date format ‘STAMP’
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ touch -a rut
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ sort 
+rpk
+mpk
+mrk
+pvk
+^C
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ sort
+^C  
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ sort rk
+sort: cannot read: rk: No such file or directory
+sunbeam@KadamRutvik92823DESD:~/Desktop/os-assignment/new$ sort rut
+hello everyone 
+Welcome to the wonderfull world of embedded
+work hard
+
